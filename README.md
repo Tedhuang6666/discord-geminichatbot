@@ -1,4 +1,4 @@
-# discord-chatbot
+# discord-geminichatbot
 一個參考他人程式所更改而成的python版本聊天機器人
 旨在能讓沒有任何程式基礎的使用者創建自己的機器人，提升AI領域得普遍能見度與對程式興趣
 
