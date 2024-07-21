@@ -17,9 +17,12 @@
 [木呱及nelsonGX所作之discord-gemini-ai][2]
 
 [yiman及nelsonGX所作之discord-gemini-chat-bot][1]
+
+[Ted's個人網頁][3]
  
   [1]: https://github.com/imyimang/discord-gemini-chat-bot        "discord-gemini-chat-bot"
   [2]: https://github.com/peter995peter/discord-gemini-ai  "discord-gemini-ai"
+  [3]: https://tedhuang-web.pages.dev/  "Ted's個人網頁"
 
 ---
 
@@ -44,15 +47,9 @@
 ---
 
 ### 指令
-✅openaichat➡️開啟此頻道的ai聊天
+✅ai對話狀態 true/false➡️開啟/關閉此頻道的ai聊天 (需要管理員權限)
 
-✅stopaichat➡️關閉此頻道的ai聊天(即使mention也是一樣)
-
-✅openaichatserver➡️開啟整個dc討論區的ai聊天
-
-✅reset➡️重製使用此指令用戶的短期記憶
-
-(以上指令皆無權限限制，任何人都可以使用)
+✅清空短期記憶➡️重製使用此指令用戶的短期記憶
 
 ---
 
@@ -77,7 +74,7 @@
 
 1. 在 Discord 開發者平台建立一個機器人，並獲取 token。
 2. 將 token 填入 `config.json` 檔案中的 `bot_token` 欄位。
-3. 取得
-3. 在 Discord 上部署機器人，並設置所需的權限。
-4. 使用 `openaichat` 指令在特定頻道開啟聊天功能，使用 `stopaichat` 指令關閉。
-5. 通過與機器人對話，享受智能聊天的樂趣！
+3. 取得gemini api
+4. 在 Discord 上部署機器人，並設置所需的權限。
+5. 使用 `/ai對話狀態 true` 指令在特定頻道開啟聊天功能
+5. 通過與機器人對話，享受智能聊天的樂趣！(需tag機器人，機器人才會回應)
